@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ile de la Réunion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+
+<body class="container">
+    <div class="border bg-primary bg-opacity-10 p-3 m-3">
+        <header>
+            <div class="container d-flex justify-content-between align-items-center">
+                <h1 class="bg-dark bg-opacity-50 text-white p-10 rounded">L'ile de la Réunion</h1>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavbar" aria-label="Ouvrir le menu de navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item text-white">
+                                    <a class="nav-link btn-nav" href="#Accueil">Accueil</a>
+                                </li>
+                                <li class="nav-item text-white">
+                                    <a class="nav-link btn-nav" href="#Mes_programmes">Réservation</a>
+                                </li>
+                                <li class="nav-item text-white">
+                                    <a class="nav-link btn-nav" href="#Me_contacter">Me contacter</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="border bg-primary bg-opacity-10 bg m-3 bg text-white">
+            <div class="container row p-5">
+                <div
+                    class="container row col-12 col-lg-6 text-center align-items-center justify-content-center mb-4 mt-4">
+                    <div>
+                        <img src="./images/photo_profil.webp" class="rounded-circle" alt="photo de profil" width="350">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <section>
+                        <h2 id="Accueil" class="text-center">Présentation</h2>
+                        <p>
+                            Bonjour, je m'appelle Maxime et je suis guide touristique à l'île de la Réunion depuis plus
+                            de 5
+                            ans.
+                            Passionné par la nature, la culture et les paysages uniques de l'île, j'accompagne les
+                            visiteurs
+                            à
+                            la
+                            découverte des plus beaux sites, comme le Piton de la Fournaise, le cirque de Mafate et les
+                            magnifiques
+                            plages de la côte ouest.
+                        </p>
+                        <p>
+                            Au fil des années, j'ai eu le plaisir de faire découvrir la richesse de la Réunion à des
+                            voyageurs
+                            venus
+                            du monde entier. Mon objectif est de vous faire vivre une expérience authentique et
+                            inoubliable
+                            à
+                            travers des excursions adaptées à vos envies, que vous soyez amateur de randonnée, de
+                            détente ou
+                            d'aventure
+                        </p>
+                    </section>
+                    <h2 id="Me_contacter" class="text-center text-white pt-2 border-top">Me contacter</h2>
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="./images/FB.png" alt="Facebook" width="50">
+                        </a>
+                        <a href="https://wa.me/262692123456" target="_blank">
+                            <img src="./images/whatsapp.png" alt="Whatsapp" width="50">
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="./images/instagram.png" alt="Instagram" width="50">
+                        </a>
+                        <a href="https://login.microsoftonline.com" target="_blank">
+                            <img src="./images/outlook.png" alt="Outlook" width="50">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="border bg-primary bg-opacity-10 m-3">
+            <h2 class="text-center text-white">Le tour de l'ile</h2>
+            <div id="leTourDeLile" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#leTourDeLile" data-bs-slide-to="0" class="active"
+                        aria-label="Diapositive 1"></button>
+                    <button type="button" data-bs-target="#leTourDeLile" data-bs-slide-to="1"
+                        aria-label="Diapositive 2"></button>
+                    <button type="button" data-bs-target="#leTourDeLile" data-bs-slide-to="2"
+                        aria-label="Diapositive 3"></button>
+                    <button type="button" data-bs-target="#leTourDeLile" data-bs-slide-to="3"
+                        aria-label="Diapositive 4"></button>
+                    <button type="button" data-bs-target="#leTourDeLile" data-bs-slide-to="4"
+                        aria-label="Diapositive 5"></button>
+                    <button type="button" data-bs-target="#leTourDeLile" data-bs-slide-to="5"
+                        aria-label="Diapositive 6"></button>
+                    <button type="button" data-bs-target="#leTourDeLile" data-bs-slide-to="6"
+                        aria-label="Diapositive 7"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <picture>
+                            <source srcset="./images/images1.avif" type="images/avif">
+                            <img src="./images/images1.webp" alt="arbre" class="d-block w-100">
+                        </picture>
+                        <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                            <h3>La Saline</h3>
+                            <p>le flamboyant</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source srcset="./images/image2.avif" type="image/avif">
+                            <img src="./images/image2.webp" alt="cascade" class="d-block w-100">
+                        </picture>
+                        <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                            <h3>Salazi</h3>
+                            <p>Le Trou De Fer</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source srcset="./images/image3.avif" type="image/avif">
+                            <img src="./images/image3.webp" alt="plage" class="d-block w-100">
+                        </picture>
+                        <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                            <h3>Grand Anse</h3>
+                            <p>La Plage</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source srcset="./images/image6.avif" type="image/avif">
+                            <img src="./images/image6.webp" alt="Cilaos" class="d-block w-100">
+                        </picture>
+                        <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                            <h3>Cilaos</h3>
+                            <p>La Route Aux 400 Virages</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source srcset="./images/image5.avif" type="image/avif">
+                            <img src="./images/image5.webp" alt="volcan" class="d-block w-100">
+                        </picture>
+                        <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                            <h3>Le Piton De La Fournaise</h3>
+                            <p>Le Volcan</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source srcset="./images/image.avif" type="image/avif">
+                            <img src="./images/image.webp" alt="nature" class="d-block w-100">
+                        </picture>
+                        <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                            <h3>Mafate</h3>
+                            <p>La Où Tous Ce Fait À Pied</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <picture>
+                            <source srcset="./images/plage_saline.avif" type="image/avif">
+                            <img src="./images/plage_saline.webp" alt="plage" class="d-block w-100">
+                        </picture>
+                        <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                            <h3>La Saline</h3>
+                            <p>Plage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#leTourDeLile" data-bs-slide="prev"
+                    aria-label="Diapositive précédente">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#leTourDeLile" data-bs-slide="next"
+                    aria-label="Diapositive suivante">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="border m-3 bg-primary bg-opacity-10 text-white">
+            <div class="row p-2">
+                <div class="container col-12 col-lg-6">
+                    <h2 class="text-center text-white">Découvrons la Réunion</h2>
+                    <div class="card shadow rounded m-2 p-2">
+                        <h3 class="text-center">Musique local</h3>
+                        <p class="mb-0">Chanson créole : Isi la Rényon</p>
+                        <audio controls>
+                            <source src="./audio/Isi_la_renyon.mp3" type="audio/mpeg">
+                            Votre navigateur ne supporte pas l'audio.
+                        </audio>
+                        <p class="mb-0 mt-2">Ambiance de La Réunion</p>
+                        <audio controls>
+                            <source src="./audio/Ambiance.mp3" type="audio/mpeg">
+                            Votre navigateur ne supporte pas l'audio.
+                        </audio>
+                    </div>
+
+                    <div class="card shadow rounded m-2 p-2">
+                        <h3 class="text-center">L'histoire de la Réunion</h3>
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/Vl4Z3a9aOu0" title="L'histoire de la Réunion"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="card shadow rounded m-2 p-2">
+                        <h3 class="text-center">Des paysages magnifiques</h3>
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/foRinpib_xw" title="Les paysages magnifiques"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="card shadow rounded m-2 p-2">
+                        <h3 class="text-center">Le volcan</h3>
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/5U-ipJMvLwM" title="Le volcan" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="card shadow rounded m-2 p-2">
+                        <h3 class="text-center">**Les restaurents**</h3>
+                        <div id="platsIncontournables" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#platsIncontournables" data-bs-slide-to="0"
+                                    class="active" aria-label="Diapositive 1"></button>
+                                <button type="button" data-bs-target="#platsIncontournables" data-bs-slide-to="1"
+                                    aria-label="Diapositive 2"></button>
+                                <button type="button" data-bs-target="#platsIncontournables" data-bs-slide-to="2"
+                                    aria-label="Diapositive 3"></button>
+                                <button type="button" data-bs-target="#platsIncontournables" data-bs-slide-to="3"
+                                    aria-label="Diapositive 4"></button>
+                                <button type="button" data-bs-target="#platsIncontournables" data-bs-slide-to="4"
+                                    aria-label="Diapositive 5"></button>
+                                <button type="button" data-bs-target="#platsIncontournables" data-bs-slide-to="5"
+                                    aria-label="Diapositive 6"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <picture>
+                                        <source srcset="./images/fleurie.avif" type="images/avif">
+                                        <img src="./images/fleurie.webp" alt="La Villa Fleurié" class="d-block w-100">
+                                    </picture>
+                                    <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                                        <h3>La Villa Fleurié</h3>
+                                        <p>Belle villa créole avec vue panoramique</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <picture>
+                                        <source srcset="./images/makassar.avif" type="images/avif">
+                                        <img src="./images/makassar.webp" alt="Makassar" class="d-block w-100">
+                                    </picture>
+                                    <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                                        <h3>Makassar</h3>
+                                        <p>Table Gastronomique et Romantique</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <picture>
+                                        <source srcset="./images/Margouillat.avif" type="images/avif">
+                                        <img src="./images/Margouillat.webp" alt="Margouillat" class="d-block w-100">
+                                    </picture>
+                                    <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                                        <h3>Le Blue Margouillat</h3>
+                                        <p>Vue Magnifique sur l'Océan</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <picture>
+                                        <source srcset="./images/mer.avif" type="images/avif">
+                                        <img src="./images/mer.webp" alt="mer" class="d-block w-100">
+                                    </picture>
+                                    <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                                        <h3>Kôtémer</h3>
+                                        <p>Face a l'Océean</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <picture>
+                                        <source srcset="./images/moana.avif" type="images/avif">
+                                        <img src="./images/moana.webp" alt="moana" class="d-block w-100">
+                                    </picture>
+                                    <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                                        <h3>Le Moana</h3>
+                                        <p>Sur le Bord de Mer</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
+                                    <picture>
+                                        <source srcset="./images/plage.avif" type="images/avif">
+                                        <img src="./images/plage.webp" alt="plage" class="d-block w-100">
+                                    </picture>
+                                    <div class="carousel-caption bg-dark bg-opacity-50 m-3">
+                                        <h3>Le CopaCabana</h3>
+                                        <p>Les Pieds dans le Sable</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#platsIncontournables"
+                                data-bs-slide="prev" aria-label="Diapositive précédente">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#platsIncontournables"
+                                data-bs-slide="next" aria-label="Diapositive suivante">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container col-12 col-lg-6">
+                    <h2 id="Mes_programmes" class="text-center text-white">Mes programmes</h2>
+                    <div class="card shadow rounded m-2 p-2">
+                        <h3>🥾 Programme Randonnée</h3>
+                        <p>
+
+                            08h00 - Départ de Saint-Denis
+                            Prise en charge à l'hôtel.
+                            Trajet vers le cirque de Salazie.
+                        </p>
+                        <p>
+                            09h30 - Cascade du Voile de la Mariée
+                            Photos et découverte du site.
+                        </p>
+                        <p>
+                            11h00 - Village de Hell-Bourg
+                            Balade dans l'un des plus beaux villages de France.
+                        </p>
+                        <p>
+                            13h00 - Déjeuner créole
+                            Cari poulet ou rougail saucisse.
+                        </p>
+                        <p>
+                            14h30 - Randonnée facile
+                            Sentiers autour de Bélouve.
+                        </p>
+                        <p>
+                            17h00 - Retour
+                        </p>
+                        <p>
+                            Prix : 89 € / personne
+                        </p>
+                        <div class="image nav-item btn btn-outline-light m-1 text-dark fw-bold text-center">
+                            RÉSERVER
+                        </div>
+                    </div>
+                    <div class="card shadow rounded m-2 p-2">
+                        <h3>🥾 Programme Mafate Aventure</h3>
+                        <p>
+                            06h00 - Départ
+                        </p>
+                        <p>
+                            08h00 - Point de vue du Maïdo
+                        </p>
+                        <p>
+                            09h00 - Descente vers Mafate
+                        </p>
+                        <p>
+                            12h00 - Déjeuner dans un îlet
+                        </p>
+                        <p>
+                            14h00 - Découverte de la vie dans le cirque
+                        </p>
+                        <p>
+                            17h00 - Retour
+                        </p>
+                        <p>
+                            Prix : 119 € / personne
+                        </p>
+                        <div class="image nav-item btn btn-outline-light text-dark fw-bold m-1 text-center">
+                            RÉSERVER
+                        </div>
+                    </div>
+                    <div class="card shadow rounded m-2 p-2">
+                        <h3>🌋 Programme Volcan</h3>
+                        <p>
+                            07h00 - Départ
+                            Route des Plaines.
+                        </p>
+                        <p>
+                            09h00 - Point de vue du Nez de Bœuf
+                            Panorama sur la Rivière des Remparts.
+                        </p>
+                        <p>
+                            10h30 - Pas de Bellecombe
+                            Vue sur le Piton de la Fournaise.
+                        </p>
+                        <p>
+                            12h00 - Déjeuner pique-nique
+                        </p>
+                        <p>
+                            13h30 - Randonnée sur l'enclos Fouqué
+                            Découverte des coulées de lave.
+                        </p>
+                        <p>
+                            17h30 - Retour
+                        </p>
+                        <p>
+                            Prix : 99 € / personne
+                        </p>
+                        <div class="image nav-item btn btn-outline-light text-dark fw-bold m-1 text-center">
+                            RÉSERVER
+                        </div>
+                    </div>
+                    <div class="card shadow rounded m-2 p-2">
+                        <h3>🏖️ Programme Plage et Détente</h3>
+                        <p>
+                            09h00 - Départ
+                        </p>
+                        <p>
+                            10h00 - Plage de l'Ermitage
+                            Baignade dans le lagon.
+                        </p>
+                        <p>
+                            12h30 - Déjeuner en bord de mer
+                        </p>
+                        <p>
+                            14h00 - Snorkeling
+                            Observation des poissons tropicaux.
+                        </p>
+                        <p>
+                            16h00 - Plage de la Saline
+                            Détente et coucher de soleil.
+                        </p>
+                        <p>
+                            18h00 - Retour
+                        </p>
+                        <p>
+                            Prix : 69 € / personne
+                        </p>
+                        <div class="image nav-item btn btn-outline-light text-dark fw-bold m-1 text-center">
+                            RÉSERVER
+                        </div>
+                    </div>
+                    <div class="card shadow rounded m-2 p-2">
+                        <h3>🌴 Programme Découverte Famille</h3>
+                        <p>
+                            09h00 - Aquarium de la Réunion
+                        </p>
+                        <p>
+                            11h00 - Jardin d'Eden
+                        </p>
+                        <p>
+                            13h00 - Déjeuner créole
+                        </p>
+                        <p>
+                            15h00 - Kelonia (tortues marines)
+                        </p>
+                        <p>
+                            17h00 - Plage de l'Ermitage
+                        </p>
+                        <p>
+                            Prix : 59 € / adulte Prix : 39 € / enfant
+                        </p>
+                        <div class="image nav-item btn btn-outline-light text-dark fw-bold m-1 text-center">
+                            RÉSERVER
+                        </div>
+                    </div>
+                    <div class="card shadow rounded m-2 p-2">
+                        <h3>🚁 Programme Tour Complet de l'Île (2 jours)</h3>
+                        <h4>
+                            Jour 1
+                        </h4>
+                        <p>
+                            Salazie
+                        </p>
+                        <p>
+                            Hell-Bourg
+                        </p>
+                        <p>
+                            Cascade du Voile de la Mariée
+                        </p>
+                        <p>
+                            Grand Anse
+                        </p>
+                        <h4>
+                            Jour 2
+                        </h4>
+                        <p>
+                            Piton de la Fournaise
+                        </p>
+                        <p>
+                            Route des Laves
+                        </p>
+                        <p>
+                            Saint-Pierre
+                        </p>
+                        <p>
+                            Plage de l'Ermitage
+                        </p>
+                        <p>
+                            Prix : 199 € / personne
+                        </p>
+                        <div class="image nav-item btn btn-outline-light text-dark fw-bold m-1 text-center">
+                            RÉSERVER
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer
+        class="border m-3 p-2 bg-primary bg-opacity-10 text-white d-flex justify-content-between align-items-center">
+        <p>
+            © 2026 Maxime Olivier.
+        </p>
+        <div class="d-flex gap-3 border-start">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="./images/FB.png" alt="Facebook" width="50">
+            </a>
+            <a href="https://wa.me/262692123456" target="_blank">
+                <img src="./images/whatsapp.png" alt="Whatsapp" width="50">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="./images/instagram.png" alt="Instagram" width="50">
+            </a>
+            <a href="https://login.microsoftonline.com" target="_blank">
+                <img src="./images/outlook.png" alt="Outlook" width="50">
+            </a>
+        </div>
+    </footer>
+</body>
